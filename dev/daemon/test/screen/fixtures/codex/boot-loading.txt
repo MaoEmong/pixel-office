@@ -1,0 +1,11 @@
+╭────────────────────────────────────────────────────────╮
+│ >_ OpenAI Codex (v0.154.0)                             │
+│                                                        │
+│ model:     loading   /model to change                  │
+│ directory: ~\AppData\Local\Temp\…\scratchpad\codex-cwd │
+╰────────────────────────────────────────────────────────╯
+
+
+› Ask Codex to do anything
+
+  gpt-6-astra default · ~\AppData\Local\Temp\agents\D--workspace\00000000-0000-0000-0000-000000000000\scratchpad\codex-…

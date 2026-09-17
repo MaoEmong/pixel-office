@@ -1,0 +1,59 @@
+[
+  {
+    "ev": "SessionStart",
+    "member": "m-codex-1",
+    "payload": {
+      "session_id": "01a09f50-13fe-70a0-90b4-2b2a7cdbcb7a",
+      "transcript_path": "C:\\Users\\dev\\.codex\\sessions\\2026\\09\\14\\rollout-2026-09-14T18-47-00-01a09f50-13fe-70a0-90b4-2b2a7cdbcb7a.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "hook_event_name": "SessionStart",
+      "model": "gpt-6-astra",
+      "permission_mode": "default",
+      "source": "resume"
+    },
+    "at": 1789379282966
+  },
+  {
+    "ev": "UserPromptSubmit",
+    "member": "m-codex-1",
+    "payload": {
+      "session_id": "01a09f50-13fe-70a0-90b4-2b2a7cdbcb7a",
+      "turn_id": "01a09f51-0568-7f42-a8b6-083730724090",
+      "transcript_path": "C:\\Users\\dev\\.codex\\sessions\\2026\\09\\14\\rollout-2026-09-14T18-47-00-01a09f50-13fe-70a0-90b4-2b2a7cdbcb7a.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "hook_event_name": "UserPromptSubmit",
+      "model": "gpt-6-astra",
+      "permission_mode": "default",
+      "prompt": "아까 만든 파일 이름이 뭐였는지 한 줄로 말해줘."
+    },
+    "at": 1789379283235
+  },
+  {
+    "ev": "Stop",
+    "member": "m-codex-1",
+    "payload": {
+      "session_id": "01a09f50-13fe-70a0-90b4-2b2a7cdbcb7a",
+      "turn_id": "01a09f51-0568-7f42-a8b6-083730724090",
+      "transcript_path": "C:\\Users\\dev\\.codex\\sessions\\2026\\09\\14\\rollout-2026-09-14T18-47-00-01a09f50-13fe-70a0-90b4-2b2a7cdbcb7a.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "hook_event_name": "Stop",
+      "model": "gpt-6-astra",
+      "permission_mode": "default",
+      "stop_hook_active": false,
+      "last_assistant_message": "[코덱스 팀원] 아까 만든 파일 이름은 `outside.txt`입니다."
+    },
+    "at": 1789379287697
+  },
+  {
+    "ev": "SessionEnd",
+    "member": "m-codex-1",
+    "payload": {
+      "session_id": "01a09f50-13fe-70a0-90b4-2b2a7cdbcb7a",
+      "transcript_path": "C:\\Users\\dev\\.codex\\sessions\\2026\\09\\14\\rollout-2026-09-14T18-47-00-01a09f50-13fe-70a0-90b4-2b2a7cdbcb7a.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "hook_event_name": "SessionEnd",
+      "reason": "other"
+    },
+    "at": 1789379292604
+  }
+]

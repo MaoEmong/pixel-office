@@ -1,0 +1,17 @@
+node_modules/
+dist/
+build/
+*.log
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins*
+ephemeral/
+
+# 통합 테스트용 작업 폴더 (PIXEL_IT=1)
+sandbox/
+
+# 로컬 상태
+.local/
+.claude/
+.gstack/

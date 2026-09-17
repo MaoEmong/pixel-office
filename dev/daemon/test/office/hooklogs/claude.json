@@ -1,0 +1,516 @@
+[
+  {
+    "ev": "SessionStart",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "hook_event_name": "SessionStart",
+      "source": "startup",
+      "model": "claude-opus-5[1m]"
+    },
+    "at": 1789378398589
+  },
+  {
+    "ev": "UserPromptSubmit",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "4d6755c4-678d-4a3f-8dea-c3272126292a",
+      "permission_mode": "default",
+      "hook_event_name": "UserPromptSubmit",
+      "prompt": "AskUserQuestion 도구를 써서 나에게 \"좋아하는 색은?\"이라고 물어봐. 옵션은 빨강, 파랑 두 개. 답을 받으면 그 색을 한 줄로 말해줘."
+    },
+    "at": 1789378399522
+  },
+  {
+    "ev": "PreToolUse",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "4d6755c4-678d-4a3f-8dea-c3272126292a",
+      "permission_mode": "default",
+      "effort": {
+        "level": "high"
+      },
+      "hook_event_name": "PreToolUse",
+      "tool_name": "AskUserQuestion",
+      "tool_input": {
+        "questions": [
+          {
+            "question": "좋아하는 색은?",
+            "header": "색",
+            "options": [
+              {
+                "label": "빨강",
+                "description": "빨간색"
+              },
+              {
+                "label": "파랑",
+                "description": "파란색"
+              }
+            ],
+            "multiSelect": false
+          }
+        ]
+      },
+      "tool_use_id": "toolu_013nmtuc9nBx6Wr5pdVoeT3w"
+    },
+    "at": 1789378404877
+  },
+  {
+    "ev": "PermissionRequest",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "4d6755c4-678d-4a3f-8dea-c3272126292a",
+      "permission_mode": "default",
+      "effort": {
+        "level": "high"
+      },
+      "hook_event_name": "PermissionRequest",
+      "tool_name": "AskUserQuestion",
+      "tool_input": {
+        "questions": [
+          {
+            "question": "좋아하는 색은?",
+            "header": "색",
+            "options": [
+              {
+                "label": "빨강",
+                "description": "빨간색"
+              },
+              {
+                "label": "파랑",
+                "description": "파란색"
+              }
+            ],
+            "multiSelect": false
+          }
+        ]
+      }
+    },
+    "at": 1789378404993
+  },
+  {
+    "ev": "PostToolUse",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "4d6755c4-678d-4a3f-8dea-c3272126292a",
+      "permission_mode": "default",
+      "effort": {
+        "level": "high"
+      },
+      "hook_event_name": "PostToolUse",
+      "tool_name": "AskUserQuestion",
+      "tool_input": {
+        "questions": [
+          {
+            "question": "좋아하는 색은?",
+            "header": "색",
+            "options": [
+              {
+                "label": "빨강",
+                "description": "빨간색"
+              },
+              {
+                "label": "파랑",
+                "description": "파란색"
+              }
+            ],
+            "multiSelect": false
+          }
+        ],
+        "answers": {
+          "좋아하는 색은?": "파랑"
+        }
+      },
+      "tool_response": {
+        "questions": [
+          {
+            "question": "좋아하는 색은?",
+            "header": "색",
+            "options": [
+              {
+                "label": "빨강",
+                "description": "빨간색"
+              },
+              {
+                "label": "파랑",
+                "description": "파란색"
+              }
+            ],
+            "multiSelect": false
+          }
+        ],
+        "answers": {
+          "좋아하는 색은?": "파랑"
+        }
+      },
+      "tool_use_id": "toolu_013nmtuc9nBx6Wr5pdVoeT3w",
+      "duration_ms": 0
+    },
+    "at": 1789378407106
+  },
+  {
+    "ev": "Stop",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "4d6755c4-678d-4a3f-8dea-c3272126292a",
+      "permission_mode": "default",
+      "effort": {
+        "level": "high"
+      },
+      "hook_event_name": "Stop",
+      "stop_hook_active": false,
+      "last_assistant_message": "[테스트 팀원 startup]\n좋아하는 색은 파랑이라고 답하셨어요.",
+      "background_tasks": [],
+      "session_crons": []
+    },
+    "at": 1789378410038
+  },
+  {
+    "ev": "UserPromptSubmit",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "f7c32ace-13b7-4c67-9b07-cbd5429fc0c2",
+      "permission_mode": "default",
+      "hook_event_name": "UserPromptSubmit",
+      "prompt": "셸 명령 \"echo hold > hold.txt\"를 실행해줘. 다른 건 하지 마."
+    },
+    "at": 1789378411825
+  },
+  {
+    "ev": "PreToolUse",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "f7c32ace-13b7-4c67-9b07-cbd5429fc0c2",
+      "permission_mode": "default",
+      "effort": {
+        "level": "high"
+      },
+      "hook_event_name": "PreToolUse",
+      "tool_name": "Bash",
+      "tool_input": {
+        "command": "echo hold > hold.txt",
+        "description": "Write \"hold\" to hold.txt"
+      },
+      "tool_use_id": "toolu_01Um7bhKTNNQEtLg8ysRiCBP"
+    },
+    "at": 1789378414487
+  },
+  {
+    "ev": "PermissionRequest",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "f7c32ace-13b7-4c67-9b07-cbd5429fc0c2",
+      "permission_mode": "default",
+      "effort": {
+        "level": "high"
+      },
+      "hook_event_name": "PermissionRequest",
+      "tool_name": "Bash",
+      "tool_input": {
+        "command": "echo hold > hold.txt",
+        "description": "Write \"hold\" to hold.txt"
+      },
+      "permission_suggestions": [
+        {
+          "type": "addDirectories",
+          "directories": [
+            "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox"
+          ],
+          "destination": "session"
+        }
+      ]
+    },
+    "at": 1789378414637
+  },
+  {
+    "ev": "Notification",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "f7c32ace-13b7-4c67-9b07-cbd5429fc0c2",
+      "hook_event_name": "Notification",
+      "message": "Claude needs your permission",
+      "notification_type": "permission_prompt"
+    },
+    "at": 1789378420657
+  },
+  {
+    "ev": "PostToolUse",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "f7c32ace-13b7-4c67-9b07-cbd5429fc0c2",
+      "permission_mode": "default",
+      "effort": {
+        "level": "high"
+      },
+      "hook_event_name": "PostToolUse",
+      "tool_name": "Bash",
+      "tool_input": {
+        "command": "echo hold > hold.txt",
+        "description": "Write \"hold\" to hold.txt"
+      },
+      "tool_response": {
+        "stdout": "",
+        "stderr": "",
+        "interrupted": false,
+        "isImage": false,
+        "noOutputExpected": false
+      },
+      "tool_use_id": "toolu_01Um7bhKTNNQEtLg8ysRiCBP",
+      "duration_ms": 1772
+    },
+    "at": 1789378491523
+  },
+  {
+    "ev": "Stop",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "f7c32ace-13b7-4c67-9b07-cbd5429fc0c2",
+      "permission_mode": "default",
+      "effort": {
+        "level": "high"
+      },
+      "hook_event_name": "Stop",
+      "stop_hook_active": false,
+      "last_assistant_message": "[테스트 팀원 startup]\n`echo hold > hold.txt`를 실행했고, 출력 없이 끝났어요. 확인은 따로 하지 않았지만 작업 폴더에 `hold.txt`가 생겼을 거예요.",
+      "background_tasks": [],
+      "session_crons": []
+    },
+    "at": 1789378495004
+  },
+  {
+    "ev": "UserPromptSubmit",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "f7c32ace-13b7-4c67-9b07-cbd5429fc0c2",
+      "permission_mode": "default",
+      "hook_event_name": "UserPromptSubmit",
+      "prompt": "다음 세 줄을 그대로 multi.txt에 저장해줘:\n첫째 줄\n둘째 줄\n셋째 줄"
+    },
+    "at": 1789378496119
+  },
+  {
+    "ev": "PreToolUse",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "ce7903ef-14ac-41ad-814f-22a18b059309",
+      "permission_mode": "default",
+      "effort": {
+        "level": "high"
+      },
+      "hook_event_name": "PreToolUse",
+      "tool_name": "Write",
+      "tool_input": {
+        "file_path": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox\\multi.txt",
+        "content": "첫째 줄\n둘째 줄\n셋째 줄\n"
+      },
+      "tool_use_id": "toolu_013mBKrpPd9hGTbS7rd8hooB"
+    },
+    "at": 1789378499454
+  },
+  {
+    "ev": "PermissionRequest",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "ce7903ef-14ac-41ad-814f-22a18b059309",
+      "permission_mode": "default",
+      "effort": {
+        "level": "high"
+      },
+      "hook_event_name": "PermissionRequest",
+      "tool_name": "Write",
+      "tool_input": {
+        "file_path": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox\\multi.txt",
+        "content": "첫째 줄\n둘째 줄\n셋째 줄\n"
+      },
+      "permission_suggestions": [
+        {
+          "type": "setMode",
+          "mode": "acceptEdits",
+          "destination": "session"
+        }
+      ]
+    },
+    "at": 1789378499588
+  },
+  {
+    "ev": "PostToolUse",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "ce7903ef-14ac-41ad-814f-22a18b059309",
+      "permission_mode": "default",
+      "effort": {
+        "level": "high"
+      },
+      "hook_event_name": "PostToolUse",
+      "tool_name": "Write",
+      "tool_input": {
+        "file_path": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox\\multi.txt",
+        "content": "첫째 줄\n둘째 줄\n셋째 줄\n"
+      },
+      "tool_response": {
+        "type": "create",
+        "filePath": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox\\multi.txt",
+        "content": "첫째 줄\n둘째 줄\n셋째 줄\n",
+        "structuredPatch": [],
+        "originalFile": null,
+        "userModified": false
+      },
+      "tool_use_id": "toolu_013mBKrpPd9hGTbS7rd8hooB",
+      "duration_ms": 40
+    },
+    "at": 1789378500732
+  },
+  {
+    "ev": "Stop",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "ce7903ef-14ac-41ad-814f-22a18b059309",
+      "permission_mode": "default",
+      "effort": {
+        "level": "high"
+      },
+      "hook_event_name": "Stop",
+      "stop_hook_active": false,
+      "last_assistant_message": "[테스트 팀원 startup]\n세 줄을 그대로 `multi.txt`에 저장했어요 (`D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox\\multi.txt`). 마지막 줄 끝에는 줄바꿈이 하나 들어가 있어요.",
+      "background_tasks": [],
+      "session_crons": []
+    },
+    "at": 1789378504175
+  },
+  {
+    "ev": "UserPromptSubmit",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "b1a20d24-6dd5-4f85-bfcb-b3518653635d",
+      "permission_mode": "default",
+      "hook_event_name": "UserPromptSubmit",
+      "prompt": "셸 명령 \"sleep 40\"을 실행해줘."
+    },
+    "at": 1789378505506
+  },
+  {
+    "ev": "SessionEnd",
+    "payload": {
+      "session_id": "99d3da71-41ca-4bb0-934e-546dfd8ce145",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\99d3da71-41ca-4bb0-934e-546dfd8ce145\\scratchpad",
+      "prompt_id": "a41c125c-d185-43d8-8892-356603467189",
+      "hook_event_name": "SessionEnd",
+      "reason": "clear"
+    },
+    "at": 1789378548816
+  },
+  {
+    "ev": "SessionStart",
+    "payload": {
+      "session_id": "d5477a7c-8324-45e6-8dee-ffd7b4974cc0",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\d5477a7c-8324-45e6-8dee-ffd7b4974cc0.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\d5477a7c-8324-45e6-8dee-ffd7b4974cc0\\scratchpad",
+      "hook_event_name": "SessionStart",
+      "source": "clear"
+    },
+    "at": 1789378548941
+  },
+  {
+    "ev": "UserPromptSubmit",
+    "payload": {
+      "session_id": "d5477a7c-8324-45e6-8dee-ffd7b4974cc0",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\d5477a7c-8324-45e6-8dee-ffd7b4974cc0.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\d5477a7c-8324-45e6-8dee-ffd7b4974cc0\\scratchpad",
+      "prompt_id": "09978f16-e4f6-4aae-9faf-f4cceb69ecf5",
+      "permission_mode": "default",
+      "hook_event_name": "UserPromptSubmit",
+      "prompt": "한 줄로 인사해줘."
+    },
+    "at": 1789378553145
+  },
+  {
+    "ev": "Stop",
+    "payload": {
+      "session_id": "d5477a7c-8324-45e6-8dee-ffd7b4974cc0",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\d5477a7c-8324-45e6-8dee-ffd7b4974cc0.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\d5477a7c-8324-45e6-8dee-ffd7b4974cc0\\scratchpad",
+      "prompt_id": "09978f16-e4f6-4aae-9faf-f4cceb69ecf5",
+      "permission_mode": "default",
+      "effort": {
+        "level": "high"
+      },
+      "hook_event_name": "Stop",
+      "stop_hook_active": false,
+      "last_assistant_message": "[테스트 팀원 clear]\n안녕하세요, 오늘도 즐겁게 코딩해요! 👋",
+      "background_tasks": [],
+      "session_crons": []
+    },
+    "at": 1789378557199
+  },
+  {
+    "ev": "SessionEnd",
+    "payload": {
+      "session_id": "d5477a7c-8324-45e6-8dee-ffd7b4974cc0",
+      "transcript_path": "C:\\Users\\dev\\.claude\\projects\\D--workspace-pixel-office-dev-demo-01-sandbox\\d5477a7c-8324-45e6-8dee-ffd7b4974cc0.jsonl",
+      "cwd": "D:\\workspace\\pixel-office\\dev\\demo-01\\sandbox",
+      "scratchpad_dir": "C:\\Users\\dev\\AppData\\Local\\Temp\\claude\\D--workspace-pixel-office-dev-demo-01-sandbox\\d5477a7c-8324-45e6-8dee-ffd7b4974cc0\\scratchpad",
+      "prompt_id": "09978f16-e4f6-4aae-9faf-f4cceb69ecf5",
+      "hook_event_name": "SessionEnd",
+      "reason": "prompt_input_exit"
+    },
+    "at": 1789378559039
+  }
+]
