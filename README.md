@@ -52,8 +52,8 @@ through a small MCP server, so one agent can hire, delegate to, report to and qu
 
 | | |
 |---|---|
-| ![인박스와 팀 클러스터](docs/img/inbox-approvals.png) | ![셸 허가 카드](docs/img/approval-shell.png) |
-| 팀 클러스터 · 내 책상 인박스 | 셸 허가 카드(명령 전문 · 만료) |
+| ![셸 허가 카드와 내 책상](docs/img/my-desk-approval.png) | ![터미널 탭](docs/img/terminal-tab.png) |
+| 셸 허가 카드(명령 전문 · 만료) · 내 책상 차례 슬롯에 선 캐릭터 | 터미널 탭 — 그 멤버의 실제 CLI TUI |
 | ![부서 만들기](docs/img/department-dialog.png) | ![픽셀 확대](docs/img/sprite-zoom-8x.png) |
 | 부서 만들기 — 작업 폴더 · 부장 엔진 | 32×32 스프라이트 (8× 확대, 보간 없음) |
 
