@@ -1,0 +1,89 @@
+name: pixel_office
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^3.3.2
+  web_socket_channel: ^3.0.3
+  xterm: ^4.0.0
+  # 부서 만들기의 "폴더 선택…"(T41). flutter.dev 공식 플러그인 — Windows 구현은 file_selector_windows 가
+  # `IFileDialog`(네이티브 폴더 선택 대화상자)를 연다. 테스트는 절대 네이티브 창을 열지 않는다:
+  # `CreateDepartmentDialog(pickDirectory: ...)` 로 가짜 선택기를 주입한다.
+  file_selector: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # 스프라이트 아틀라스(T33 · D-43 2) — 32×32 셀 8열 × 3줄. 생성기는 `tool/gen_sprites.dart`.
+  # 출처·라이선스는 `assets/LICENSES.md`.
+  assets:
+    - assets/sprites/characters.png
+
+  # 서체 3종(T33 · D-43 4, 전부 OFL 1.1 — 파일 동봉 + LICENSE). 쓰는 곳:
+  #   Galmuri11  = 사무실 캔버스(라벨·말풍선·모니터)   — 한글 픽셀 서체
+  #   Pretendard = 오른쪽 패널·상단 바·지시 바(테마 기본)
+  #   D2Coding   = 터미널·명령 고정폭
+  # 한 서체에 없는 글자는 **번들 안에서** 서로 대신한다(main.dart / office_view.dart 의 fontFamilyFallback):
+  #   ♛ 는 D2Coding 에만, ❗❓✉ 는 Galmuri11 에만 있다(T40 편차 ⑤).
+  fonts:
+    - family: Galmuri11
+      fonts:
+        - asset: assets/fonts/Galmuri11.ttf
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/Pretendard-Regular.otf
+        - asset: assets/fonts/Pretendard-Bold.otf
+          weight: 700
+    - family: D2Coding
+      fonts:
+        - asset: assets/fonts/D2Coding.ttf
