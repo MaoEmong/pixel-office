@@ -62,41 +62,36 @@ through a small MCP server, so one agent can hire, delegate to, report to and qu
 ## 구조
 
 ```mermaid
-flowchart LR
+flowchart TB
   subgraph APP["Flutter 데스크탑 앱"]
-    direction TB
-    OFFICE["사무실 캔버스<br/>스프라이트 · 말풍선 · 모니터"]
+    OFFICE["사무실 캔버스<br/>스프라이트 · 말풍선"]
     INBOX["내 책상 인박스<br/>허가 · 질문 카드"]
     TERM["터미널 탭<br/>xterm 렌더링"]
   end
 
   subgraph DAEMON["Node 상주 데몬"]
-    direction TB
     RPC["RpcServer<br/>WS JSON-RPC :7420"]
     CORE["Office 오케스트레이터<br/>InputQueue · ShellMutex · 후처리"]
     STORE[("SQLite<br/>events seq · pending · tasks")]
-    PTY["PtyManager + ScreenModel<br/>node-pty · xterm headless"]
     HOOK["HookReceiver<br/>HTTP :7421"]
     MCP["TeamTools MCP<br/>HTTP :7422"]
+    PTY["PtyManager + ScreenModel<br/>node-pty · xterm headless"]
+    RPC <--> CORE
+    CORE <--> STORE
+    HOOK --> CORE
+    MCP <--> CORE
+    CORE --> PTY
   end
 
   subgraph CLI["멤버마다 CLI 세션 하나 (ConPTY)"]
-    direction TB
     CLAUDE["claude TUI"]
     CODEX["codex TUI"]
   end
 
-  APP <-->|"이벤트 · 스냅샷 · 터미널 바이트<br/>지시 · 허가 응답"| RPC
-  RPC <--> CORE
-  CORE <--> STORE
-  CORE --> PTY
-  PTY -->|"키 입력 (지시 타이핑)"| CLI
-  CLI -->|"화면 바이트"| PTY
-  CLI -->|"hooks: node hook.js"| HOOK
-  HOOK -->|"결정 allow / deny"| CLI
-  HOOK --> CORE
+  APP <-->|"이벤트 · 스냅샷 · 터미널 바이트 ↑<br/>지시 · 허가 응답 ↓"| RPC
+  PTY <-->|"키 입력(지시 타이핑) ↓ · 화면 바이트 ↑"| CLI
+  CLI -->|"hooks: node hook.js → 결정 allow / deny"| HOOK
   CLI <-->|"create_team · hire · delegate<br/>report · ask_parent · ask_user"| MCP
-  MCP <--> CORE
 ```
 
 데몬은 앱과 분리된 상주 프로세스다. 앱 창을 닫아도 CLI 세션은 계속 일하고, 다시 열면 `seq` 이후 이벤트만 받아 이어 본다.
