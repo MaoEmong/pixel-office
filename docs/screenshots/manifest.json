@@ -1,0 +1,199 @@
+{
+  "capturedAt": "2026-10-19",
+  "appVersion": "0.1.0",
+  "data": "Fictional showcase fixtures in the real Windows UI; not live AI results or account data",
+  "capture": "Native window JPEG; no compositing or content edits",
+  "count": 27,
+  "totalBytes": 3732007,
+  "screenshots": [
+    {
+      "file": "01-hero.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 151304,
+      "sha256": "3ebfbd04595cdaf0f051cbd18db5bf637afc48f5b9d75e7f494bea00bc8c5090"
+    },
+    {
+      "file": "02-office-overview.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 123975,
+      "sha256": "8aff6502c298639a9bf16f893cc3087a6d1339b533c191489cd1bdf44752c4d7"
+    },
+    {
+      "file": "03-conversation.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 145321,
+      "sha256": "31a2b9bda09829f2fdb6f26b606343188ed54b5a27b06bdfb8c6ca91fa38e053"
+    },
+    {
+      "file": "04-goals-and-criteria.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 140729,
+      "sha256": "8e31bdf31121fad4422b0344d979b654d1e8e210980582535552406761e1fe90"
+    },
+    {
+      "file": "05-meeting-decisions.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 145794,
+      "sha256": "94de4de268c87b9a02ee6cdcbecc1ea9b45ac8a74dbb7c0e9cc37934f49d149d"
+    },
+    {
+      "file": "06-team-opinions.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 152350,
+      "sha256": "11469221d3c7b8eec9c63aa9aa43df2f2ee8d53b6646c636101bf1ac740d7d6c"
+    },
+    {
+      "file": "07-work-plan.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 133431,
+      "sha256": "49e2e2b49725a85a0e9a5a3db49708d74f74ddacccf3d2dddf94cfaf3764b4d3"
+    },
+    {
+      "file": "08-stage-history.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 141728,
+      "sha256": "f6f91749f64ee2af7a2d7b0c82c3aa9f24d98e2a83cf8d55f2333e09dfbed7b2"
+    },
+    {
+      "file": "09-terminal.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 150813,
+      "sha256": "9eb0a6714eff4b596c2b0dbd839c5c7746fd62bafb9e5a95dcb8f8a8f6e39fb6"
+    },
+    {
+      "file": "10-member-instructions.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 163034,
+      "sha256": "47c40ef1ef678958f1cd65b1b822b98d87b6587708c21539e9130c510282fefc"
+    },
+    {
+      "file": "11-work-report.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 150986,
+      "sha256": "3008dfb68ac0954934f53ab5e8b6f0c0805ba3c31023eb7fb4b7f12541753a78"
+    },
+    {
+      "file": "12-ai-usage.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 152747,
+      "sha256": "5c9fc0e307e324e93f659b884a16e66d5297dc12678f65adfdb94400b39772e2"
+    },
+    {
+      "file": "13-ai-selection.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 129817,
+      "sha256": "9cc17309707a7935f85f24d8d5dbba7d6977697c2e825be491dc0882af585a6f"
+    },
+    {
+      "file": "14-question-to-lead.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 169627,
+      "sha256": "d0e46e1c38e01fff70d366a041f09f526d1bb6b00fc4d7a82a208b85fc2d68a9"
+    },
+    {
+      "file": "15-command-approval.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 163511,
+      "sha256": "794d91524b416894d4fd3ac2325fb5e0647327771d6f656b794143cb2397e807"
+    },
+    {
+      "file": "16-question-to-user.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 165570,
+      "sha256": "ea766f983ff7dee35a16cb025888ab6ad80d63555c4e0d60e0bc7e2e28dc6374"
+    },
+    {
+      "file": "17-meeting-progress.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 162867,
+      "sha256": "e0d8cf86236d815a9558e73bce2374f34a37e42902d7f39205b8507cd3cb26ea"
+    },
+    {
+      "file": "18-connection-recovery.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 155395,
+      "sha256": "cd1e8a7221644aca367028f5c269fcae2893f8c0361f5bf7b012572cab39298a"
+    },
+    {
+      "file": "19-first-launch.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 89593,
+      "sha256": "b2a5a4d2c12eeb271496c2ad2953d625a71427d3bc2202dd076bdd0061709018"
+    },
+    {
+      "file": "20-create-department.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 89355,
+      "sha256": "4e638a57a1bcaafc3154bd5d0f677abc32be0077ef94838a2fede547bb2e82dc"
+    },
+    {
+      "file": "21-permission-options.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 99495,
+      "sha256": "5b8c225f5e43fe076be48a161e4b4953aae0bcdfa44b9d0661299c69a4afcf01"
+    },
+    {
+      "file": "22-error-popup.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 119532,
+      "sha256": "5fc4fda036e2d6725f792af48ad975a0fa4dbb062bbdc8a91ea37016bb1cb956"
+    },
+    {
+      "file": "23-report-to-manager.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 126756,
+      "sha256": "706a202f4f7a3e621d1e61223e47b9b6a134c5696d5049f566e9486d37f8696a"
+    },
+    {
+      "file": "24-head-report-to-user.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 127786,
+      "sha256": "a2647dbabd403451f86e24b333fd9b53f2a54f2c257f6d6b5004c79ee5126dde"
+    },
+    {
+      "file": "25-image-request.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 128745,
+      "sha256": "a8baa3711485c9ba83ece8eecaf8a9d0f475a95317ee82672c3c83188449d737"
+    },
+    {
+      "file": "26-image-preview.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 114157,
+      "sha256": "2bd487db4eea15c209b0942828a22e29134f7c46dd1a5936cb4014d79214e8cb"
+    },
+    {
+      "file": "27-environment-check.jpg",
+      "width": 1920,
+      "height": 1032,
+      "bytes": 137589,
+      "sha256": "35f432fac80c5cf56439499af3fde7a474c36e242bab459274c0c1424d2533cd"
+    }
+  ]
+}

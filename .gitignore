@@ -1,0 +1,11 @@
+dist/
+*.zip
+*.sha256
+dev/
+src/
+node_modules/
+.local/
+.pixel-office/
+.env
+.env.*
+*.log
