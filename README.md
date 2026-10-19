@@ -4,11 +4,11 @@
 
 부장에게 만들고 싶은 것을 이야기하면, 부장이 팀을 구성하고 팀장·팀원이 일을 나눕니다. 대화, 회의, 작업 결과와 필요한 승인을 한 화면에서 확인할 수 있는 데스크톱 앱입니다.
 
-[Windows 0.1.0 다운로드](https://github.com/MaoEmong/pixel-office/releases/tag/v0.1.0) · [설치·사용 안내](docs/release/0.1.0/README-KO.md) · [스크린샷 27장](docs/screenshots/README.md) · [문제 해결](docs/환경-문제해결.md)
+[Windows 0.1.1 다운로드](https://github.com/MaoEmong/pixel-office/releases/tag/v0.1.1) · [설치·사용 안내](docs/release/0.1.1/README-KO.md) · [스크린샷 27장](docs/screenshots/README.md) · [문제 해결](docs/환경-문제해결.md)
 
 ![픽셀 오피스에서 부장과 세 팀의 작업 상태와 작업 기록을 함께 보는 화면](docs/screenshots/01-hero.jpg)
 
-> **Windows 0.1.0 시험판을 배포합니다.** 사용할 Claude Code·Codex 프로그램과 계정 로그인은 별도로 필요합니다. 확인한 범위와 남은 확인 사항은 [배포 검증 기록](docs/release/0.1.0/VERIFICATION.md)에서 확인하세요.
+> **Windows 0.1.1 시험판을 배포합니다.** 사용할 Claude Code·Codex 프로그램과 계정 로그인은 별도로 필요합니다. 확인한 범위와 남은 확인 사항은 [배포 검증 기록](docs/release/0.1.1/VERIFICATION.md)에서 확인하세요.
 >
 > 아래 사진은 **실제 앱에 소개용 예시 데이터를 넣어 촬영한 화면**입니다. 프로젝트·대화·작업 결과·사용량·연결 상태는 기능 설명을 위한 예시이며, 실제 계정이나 실제 AI 작업 결과를 공개한 사진이 아닙니다. 사진을 누르면 크게 볼 수 있습니다.
 
@@ -24,6 +24,14 @@
 | 진행 상황 확인 | 사무실, 회의, 작업 계획, 단계 기록을 확인합니다. |
 | 방향 바꾸기 | 작업 중에도 부장에게 질문하거나 변경 지시를 보냅니다. |
 | 실행 여부 판단 | 내 책상에 온 명령을 읽고 허가하거나 거부합니다. |
+
+## 0.1.1에서 달라진 점
+
+- 부서를 바꾸면 해당 부장과 오른쪽 정보·명령 대상이 함께 바뀝니다.
+- 오류를 쉬운 설명·작업 영향·다음 조치로 나누고 원문은 따로 펼쳐 확인합니다.
+- 연결된 AI의 별도 임시 요청으로 설명을 보완합니다. 진행 중인 부장·팀원 대화에 끼어들지 않으며, 설명을 받지 못해도 기본 안내는 바로 표시합니다. AI 설명은 추정이고 계정 사용량이 쓰일 수 있습니다.
+
+자세한 내용과 업데이트 방법은 [0.1.1 변경 내역](docs/release/0.1.1/RELEASE-NOTES.md)을 참고하세요.
 
 ## 화면으로 살펴보기
 
@@ -158,13 +166,13 @@ Claude Code만, Codex만, 또는 두 서비스를 함께 사용하도록 선택�
 
 ## 처음 시작하기
 
-1. [Windows 배포 ZIP](https://github.com/MaoEmong/pixel-office/releases/download/v0.1.0/PixelOffice-0.1.0-windows-x64.zip)을 내려받아 **전체**를 새 폴더에 풀고 `pixel_office.exe`를 실행합니다.
+1. [Windows 배포 ZIP](https://github.com/MaoEmong/pixel-office/releases/download/v0.1.1/PixelOffice-0.1.1-windows-x64.zip)을 내려받아 **전체**를 새 폴더에 풀고 `pixel_office.exe`를 실행합니다.
 2. 사용할 Claude Code 또는 Codex를 설치하고 로그인합니다.
 3. `AI 설정 변경`에서 실제 사용할 서비스를 선택하고 연결 상태를 확인합니다.
 4. `부서 만들기`에서 작업할 프로젝트 폴더와 부장 AI를 고릅니다.
 5. 부장에게 목표와 완료 기준을 설명합니다. 이후 팀 구성·회의·작업 결과를 화면에서 확인합니다.
 
-Windows 배포본에는 앱 실행에 필요한 Node.js와 기본 구성품이 포함됩니다. AI 프로그램 설치와 계정 이용은 각 서비스의 조건을 따릅니다. 상세한 실행·업데이트·백업 방법은 [설치·사용 안내](docs/release/0.1.0/README-KO.md)를 참고하세요.
+Windows 배포본에는 앱 실행에 필요한 Node.js와 기본 구성품이 포함됩니다. AI 프로그램 설치와 계정 이용은 각 서비스의 조건을 따릅니다. 상세한 실행·업데이트·백업 방법은 [설치·사용 안내](docs/release/0.1.1/README-KO.md)를 참고하세요.
 
 <details>
 <summary>첫 실행·부서 만들기·허가 방식 설정 화면 보기</summary>
@@ -188,10 +196,10 @@ Windows 배포본에는 앱 실행에 필요한 Node.js와 기본 구성품이 �
 | 문서 | 내용 |
 |---|---|
 | [전체 스크린샷 갤러리 · 27장](docs/screenshots/README.md) | 기능별 화면과 촬영 기준 |
-| [설치·사용 안내](docs/release/0.1.0/README-KO.md) | AI 연결, 사용법, 백업과 업데이트 |
+| [설치·사용 안내](docs/release/0.1.1/README-KO.md) | AI 연결, 사용법, 백업과 업데이트 |
 | [문제 해결](docs/환경-문제해결.md) | 설치·로그인·실행 권한·연결 복구 |
 | [원격 접속 안내](docs/원격접속.md) | 선택 기능: 다른 기기의 브라우저에서 연결하기 |
-| [검증 기록](docs/release/0.1.0/VERIFICATION.md) | 확인한 범위와 실제 환경 확인 사항 |
+| [검증 기록](docs/release/0.1.1/VERIFICATION.md) | 확인한 범위와 실제 환경 확인 사항 |
 
 문제 제보에는 오류 문구, 앱 버전, 사용하는 AI와 재현 순서를 함께 남겨 주세요. 계정 정보나 비공개 프로젝트 내용은 제외해 주세요.
 
