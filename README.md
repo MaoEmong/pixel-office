@@ -6,7 +6,7 @@
 
 부장 AI에게 목표를 이야기하면 AI가 팀을 구성하고 일을 나눕니다. 캐릭터를 눌러 대화와 작업을 보고, 사용자가 판단할 질문과 실행 허가는 **내 책상**에서 확인합니다.
 
-[Windows 0.2.0 다운로드](https://github.com/MaoEmong/pixel-office/releases/tag/v0.2.0) · [처음 사용 안내](docs/FIRST-USE-KO.md) · [설치·업데이트](docs/release/0.2.0/README-KO.md) · [검증 범위](docs/release/0.2.0/VERIFICATION.md)
+[Windows 0.2.1 다운로드](https://github.com/MaoEmong/pixel-office/releases/tag/v0.2.1) · [처음 사용 안내](docs/FIRST-USE-KO.md) · [설치·업데이트](docs/release/0.2.1/README-KO.md) · [검증 범위](docs/release/0.2.1/VERIFICATION.md)
 
 ## 사용 전에 확인하세요
 
@@ -17,7 +17,7 @@
 
 ## 처음 시작하기
 
-1. [배포 페이지](https://github.com/MaoEmong/pixel-office/releases/tag/v0.2.0)에서 ZIP을 내려받아 **전체**를 새 폴더에 풉니다.
+1. [배포 페이지](https://github.com/MaoEmong/pixel-office/releases/tag/v0.2.1)에서 ZIP을 내려받아 **전체**를 새 폴더에 풉니다.
 2. `pixel_office.exe`를 실행합니다. 실행 파일만 따로 옮기지 마세요.
 3. 사용할 AI를 설치하고 로그인한 뒤 **준비 상태 확인**을 누릅니다.
 4. **부서 만들기**에서 작업 폴더, 부장 AI와 팀에서 사용할 AI를 고릅니다. 처음에는 기본 허가 방식을 유지하세요.
@@ -49,21 +49,21 @@ Antigravity의 내부 모델 그룹 사용량은 별도 Claude Code·Codex 계�
 
 [기존 스크린샷](docs/screenshots/README.md)은 실제 앱에 소개용 데이터를 넣은 예시입니다. 실제 작업 성과나 계정 정보를 보여주지 않으며 이전 화면이 포함되어 있습니다.
 
-## 0.2.0에서 바뀐 점
+## 0.2.1에서 바뀐 점
 
-- 요청별 타임라인, 완료 결과 카드와 로컬 파일 저장·되돌리기.
-- 왼쪽 부서 목록과 프로젝트 문서 읽기·편집.
-- 프로젝트 키 저장소, 확인 후 켜는 모든 권한 허용과 부서 생성 시 AI 선택.
-- AI 강제 퇴근, 한도 소진 시 중지·확인 후 교체와 Docker 실행 대기 안내.
-- 진행 보고·질문 구분, 긴 입력 제출·질문 복구와 해결된 대기 알림 정리.
+- PC·모바일에서 검사·명령 실행 중 표시와 상대·업무별 결과 대기 관계를 확인합니다.
+- 대화 100개 이후에도 이어 가며, 긴 과거 대화는 나누어 읽고 새 메시지만 추가 저장합니다.
+- 입력 복구, 대기 지시와 완료 보고 전달, 미완료 업무의 조기 완료 방지를 보완했습니다.
+- 대기 목록 마우스 드래그와 부서 이름 변경을 제공합니다.
+- 닫힌 터미널 출력 연결 처리, 과거 대화의 등록된 키 가림과 요청 재시도 호환성을 보완했습니다.
 
-[전체 변경 내역](docs/release/0.2.0/RELEASE-NOTES.md) · [실제 검사 범위와 제한](docs/release/0.2.0/VERIFICATION.md)
+[전체 변경 내역](docs/release/0.2.1/RELEASE-NOTES.md) · [실제 검사 범위와 제한](docs/release/0.2.1/VERIFICATION.md)
 
 ## 저장·업데이트·문제 제보
 
 앱 설정·조직·키와 프로젝트 기록은 PC의 앱 데이터 폴더에, 프로젝트별 대화와 작업 기록은 선택한 폴더의 `.pixel-office`에 보관합니다. 재실행 시 저장된 작업의 복구를 시도하지만 로그인 만료·권한 문제는 사용자의 조치가 필요할 수 있습니다.
 
-업데이트 전에는 작업을 마치고 앱을 정상 종료한 뒤 두 데이터 폴더를 백업하세요. 새 ZIP은 기존 설치 폴더에 덮어쓰지 말고 **새 폴더**에 풉니다. [설치·업데이트 안내](docs/release/0.2.0/README-KO.md)
+업데이트 전에는 작업을 마치고 앱을 정상 종료한 뒤 두 데이터 폴더를 백업하세요. 새 ZIP은 기존 설치 폴더에 덮어쓰지 말고 **새 폴더**에 풉니다. [설치·업데이트 안내](docs/release/0.2.1/README-KO.md)
 
 [GitHub 이슈](https://github.com/MaoEmong/pixel-office/issues)에 앱 버전·사용 AI·오류 문구·재현 순서를 남겨주세요. 계정 정보·인증 파일·키·비밀번호·비공개 프로젝트 내용은 공개하지 마세요.
 
