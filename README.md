@@ -6,17 +6,17 @@
 
 부장 AI에게 목표를 전달하면 팀을 구성하고 일을 나눕니다. 누가 작업하고 있는지, 누구의 결과를 기다리는지 살펴보고, 필요한 질문과 실행 허가는 **내 책상**에서 확인합니다.
 
-**[Windows 0.2.5 다운로드](https://github.com/MaoEmong/pixel-office/releases/tag/v0.2.5)** · [사진으로 둘러보기](docs/screenshots/README.md) · [처음 사용 안내](docs/FIRST-USE-KO.md)
+**[Windows 0.2.6 다운로드](https://github.com/MaoEmong/pixel-office/releases/tag/v0.2.6)** · [사진으로 둘러보기](docs/screenshots/README.md) · [처음 사용 안내](docs/FIRST-USE-KO.md)
 
 ![팀 구성과 결과 대기 관계, 검사담당의 실행 상태를 함께 보여 주는 픽셀 사무실](docs/screenshots/0.2.5/21-running-inspection.png)
 
-사진은 **현재 배포된 Windows 0.2.5 앱**을 촬영했습니다. 프로젝트·대화·검사 결과·사용량·로그인 상태는 소개용 예시이며 실제 AI의 작업 성과가 아닙니다. 사진을 누르면 크게 볼 수 있습니다.
+사진은 **Windows 0.2.5 앱**을 촬영했습니다. 현재 배포 버전은 0.2.6이며, 이번 변경은 대화·복구 처리 중심입니다. 프로젝트·대화·검사 결과·사용량·로그인 상태는 소개용 예시이며 실제 AI의 작업 성과가 아닙니다. 사진을 누르면 크게 볼 수 있습니다.
 
 ## 처음 시작하기
 
 현재는 **Windows 10·11의 64비트 PC용 시험판**입니다. 사용할 AI 프로그램의 설치와 계정 로그인은 별도로 필요하며, 이용 요금과 사용 한도는 각 서비스의 조건을 따릅니다.
 
-1. [배포 페이지](https://github.com/MaoEmong/pixel-office/releases/tag/v0.2.5)에서 ZIP을 내려받아 **전체를 새 폴더에** 풉니다.
+1. [배포 페이지](https://github.com/MaoEmong/pixel-office/releases/tag/v0.2.6)에서 ZIP을 내려받아 **전체를 새 폴더에** 풉니다.
 2. `pixel_office.exe`를 실행합니다. 실행 파일만 따로 옮기지 마세요.
 3. 사용할 [Claude Code](https://code.claude.com/docs/en/setup)·[Codex](https://developers.openai.com/codex/cli/)·[Antigravity](https://antigravity.google/docs/cli/)를 준비하고 **준비 상태 확인**을 누릅니다. 사용할 AI만 설치하면 됩니다.
 4. **부서 만들기**에서 작업 폴더와 사용할 AI를 고릅니다. 처음에는 허가 방식을 **전부 묻기**로 유지하세요.
@@ -106,19 +106,19 @@ AI가 같은 문서를 바꾸면 작성 중인 글을 유지하고 변경 내용
 
 업데이트할 때는 진행 중인 검사·명령이 끝난 뒤 새 작업을 잠시 보류하세요. 작성 중인 글을 저장하고 앱을 정상 종료한 다음, 위 폴더를 백업합니다. 새 ZIP 전체를 **새 폴더**에 풀어 실행하고 기존 대화·미완료 업무를 확인한 뒤 작업을 이어가세요.
 
-재실행 시 저장된 작업의 복구를 시도합니다. 로그인 만료·권한 문제나 실행 중이던 명령의 결과는 추가 확인이 필요할 수 있습니다. [자세한 설치·업데이트 안내](docs/release/0.2.5/README-KO.md)
+재실행 시 저장된 작업의 복구를 시도합니다. 로그인 만료·권한 문제나 실행 중이던 명령의 결과는 추가 확인이 필요할 수 있습니다. [자세한 설치·업데이트 안내](docs/release/0.2.6/README-KO.md)
 
-## 0.2.5에서 달라진 점
+## 0.2.6에서 달라진 점
 
-- 부장과 담당자의 답변이 대화·보고에서 빠지는 상황을 보완했습니다.
-- Windows에서 Codex에 한글·기호가 포함된 지시를 전달하고 접수 여부를 확인하는 동작을 보완했습니다.
-- 기다리는 담당자와 결과, 다음 할 일을 표시하고 결과 도착 후 재개를 안내합니다. 대기 중인 업무가 완료로 잘못 바뀌지 않도록 보완했습니다.
+- 단순한 설명·조회·계산 질문에는 부장이 직접 답하고 회의나 미완료 업무를 새로 만들지 않도록 안내를 고쳤습니다.
+- 확인된 Windows AI 프로그램 비정상 종료 뒤 같은 대화와 기존 업무를 보존하며 재연결을 시도합니다.
+- 회복한 과거 사용 한도 기록의 재차 차단과 오래된 갱신 날짜 표시를 보완했습니다. 실제 소진·미확인 상태와 사용자의 재개 선택은 유지합니다.
 
-[전체 변경 내역](docs/release/0.2.5/RELEASE-NOTES.md)
+[전체 변경 내역](docs/release/0.2.6/RELEASE-NOTES.md) · [검증 범위](docs/release/0.2.6/VERIFICATION.md)
 
 ## 도움이 필요하면
 
-[처음 사용 안내](docs/FIRST-USE-KO.md) · [문제 해결](docs/환경-문제해결.md) · [설치·업데이트](docs/release/0.2.5/README-KO.md)
+[처음 사용 안내](docs/FIRST-USE-KO.md) · [문제 해결](docs/환경-문제해결.md) · [설치·업데이트](docs/release/0.2.6/README-KO.md)
 
 [GitHub 이슈](https://github.com/MaoEmong/pixel-office/issues)에 **앱 버전, 사용 AI, 오류 문구와 문제가 생긴 순서**를 남겨 주세요. 인증 파일·키·비밀번호와 비공개 프로젝트 내용은 첨부하지 마세요.
 
